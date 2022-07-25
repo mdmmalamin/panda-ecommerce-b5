@@ -34,13 +34,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
+                            <a class="nav-link" href="#shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Backpack</a>
+                            <a class="nav-link" href="#backpack">Backpack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Subscribe</a>
+                            <a class="nav-link" href="#subscribe">Subscribe</a>
                         </li>
                     </ul>
                 </div>
@@ -51,7 +51,7 @@
         ------------------------>
         <div id="carouselExampleControls" class="carousel slide my-5" data-bs-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item bg-info bg-gradient  border rounded-4">
+                <div class="carousel-item bg-info bg-gradient  border rounded">
                     <div class="row align-items-center">
                         <div class="col-lg-7 p-5">
                             <div>
@@ -66,7 +66,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item bg-info bg-gradient  border rounded-4">
+                <div class="carousel-item bg-info bg-gradient  border rounded">
                     <div class="row align-items-center">
                         <div class="col-lg-7 p-5">
                             <div>
@@ -81,7 +81,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item bg-info bg-gradient  border rounded-4 active">
+                <div class="carousel-item bg-info bg-gradient  border rounded active">
                     <div class="row align-items-center">
                         <div class="col-lg-7 p-5">
                             <div>
@@ -145,7 +145,7 @@
         <!---------------------
             shoes Items Start
         ----------------------->
-        <section class="my-5">
+        <section id="shoes" class="my-5">
             <h1>Shoes</h1>
             <div class="row row-cols-1 row-cols-md-2 g-4">
                 <!-- single items -->
@@ -195,10 +195,10 @@
         <!---------------------
             shoes Items End
         ----------------------->
-        <!---------------------
+        <!-------------------------
             BackPack Items Start
-        ----------------------->
-        <section class="my-5">
+        --------------------------->
+        <section id="backpack" class="my-5">
             <h1>Backpack</h1>
             <div class="row row-cols-1 row-cols-md-2 g-4">
                 <!-- single items -->
@@ -245,7 +245,32 @@
                 </div>
             </div>
         </section>
+
+        <!---------------------
+            Subscribe Strat
+        ----------------------->
+        <section id="subscribe" class="container d-flex justify-content-center align-items-center bg-info bg-gradient rounded p-5 my-5">
+            <div class="m-5 text-light">
+                <h2>LET'S STAY IN TOUCH</h2>
+                <p>Get updates on sales, specials and more</p>
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <!---------------------
+            Subscribe End
+        ----------------------->
     </main>
+    <footer class="text-center">
+        <p><small>©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small></p>
+    </footer>
 
     
     <!--------------------------
